@@ -2,13 +2,13 @@
  * @Author: ShenLing
  * @Date: 2020-11-16 15:06:53
  * @LastEditors: ShenLing
- * @LastEditTime: 2020-11-16 15:14:20
+ * @LastEditTime: 2020-11-16 16:32:40
  */
 
 import React from 'react'
 import { Icon } from '@alifd/next'
 
-export default class OnlinelineIconfong extends React.Component {
+export default class OnlinelineIconfont extends React.Component {
     onClickIcon = () => {
         console.log('icon')
     }

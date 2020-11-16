@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+<!--
+ * @Author: ShenLing
+ * @Date: 2020-11-16 15:03:40
+ * @LastEditors: ShenLing
+ * @LastEditTime: 2020-11-16 16:36:55
+-->
+### REACT PRACTICE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> PROJECT DESCRIPTION
+> 1. using Create-React-App to create this project
+> 2. this project is for personal practice 
 
-## Available Scripts
 
-In the project directory, you can run:
+### Usage
+- Start the project `yarn start`
+- Build the project `yarn build`
+- Install the dependencies `yarn` or `yarn add <--package-name-->` or `npm install`
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### open-source UI library
+- [Alibaba Fusion Online Document](https://fusion.design/pc/component/doc/102)
+- [Alibaba Fusion Github](https://github.com/alibaba-fusion/next?spm=fusion-design.component-design-fusion.0.0.272238035PO0Pw)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+### Components
+1. Iconfont Online `src/components/OnlinelineIconfont`
+2. Iconfont Ofiiline `src/components/OfflineIconfont`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 中文文档
+1. [Fusion组件库引用Iconfont项目（在线+离线方法）](https://www.jianshu.com/p/643e0f586a5a)
