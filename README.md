@@ -2,7 +2,7 @@
  * @Author: ShenLing
  * @Date: 2020-11-16 15:03:40
  * @LastEditors: ShenLing
- * @LastEditTime: 2020-11-17 11:28:07
+ * @LastEditTime: 2020-11-24 17:10:11
 -->
 ### REACT PRACTICE
 
@@ -23,9 +23,11 @@
 
 
 ### Components
-1. Iconfont Online `src/components/OnlinelineIconfont`
-2. Iconfont Ofiiline `src/components/OfflineIconfont`
+1. [Iconfont Online `src/components/OnlinelineIconfont`](https://github.com/SHENLing0628/REACT_PRACTICE/tree/main/src/components/OnlineIconFont)
+2. [Iconfont Ofiiline `src/components/OfflineIconfont`](https://github.com/SHENLing0628/REACT_PRACTICE/tree/main/src/components/OfflineIconfont)
+3. [Cron Generator `src/components/CronGenerator`](https://github.com/SHENLing0628/REACT_PRACTICE/tree/main/src/components/CronGenerator)
 
 
 ### 中文文档
 1. [Fusion组件库引用Iconfont项目（在线+离线方法）](https://www.jianshu.com/p/643e0f586a5a)
+2. [React CRON定时器](https://www.jianshu.com/p/c5fce2cb1670)
