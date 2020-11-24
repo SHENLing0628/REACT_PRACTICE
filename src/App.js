@@ -2,7 +2,7 @@
  * @Author: ShenLing
  * @Date: 2020-11-16 15:03:40
  * @LastEditors: ShenLing
- * @LastEditTime: 2020-11-20 16:15:35
+ * @LastEditTime: 2020-11-24 17:04:52
  */
 import './App.scss';
 import React from 'react'
@@ -49,13 +49,13 @@ export default class App extends React.Component {
         </div>
 
         {/* iconfont在线/离线引用 */}
-        {/* <div className="icon_sample">
+        <div className="icon_sample">
           <p>ONLINE ICON:</p>
           <OnlineIconFont type="iconcode" size="xxl" />
           
           <p>OFFLINE ICON:</p>
           <OfflineIconfont type="iconstation_icon_offline" size="xxl" />
-        </div> */}
+        </div>
         
       </div>
     )

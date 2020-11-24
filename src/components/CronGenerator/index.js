@@ -2,7 +2,7 @@
  * @Author: ShenLing
  * @Date: 2020-10-20 17:31:22
  * @LastEditors: ShenLing
- * @LastEditTime: 2020-11-20 16:21:33
+ * @LastEditTime: 2020-11-24 16:56:45
  */
 import React from 'react'
 import './index.scss'
@@ -79,6 +79,11 @@ export default class GronGenerator extends React.Component {
 		alertMsg: null
 	}
 
+ /**
+  * @name: 打开对话框时，获取传入的cron表达式字符串
+  * @param {*} nextProps
+  * @return {*}
+  */
 	UNSAFE_componentWillReceiveProps (nextProps) {
 		if (nextProps.dialogVisible && nextProps.initCron) {
 			let cronArr = nextProps.initCron.split(' ')
@@ -96,6 +101,11 @@ export default class GronGenerator extends React.Component {
 		}
 	}
 
+ /**
+  * @name: 反编译解析表达式
+  * @param {*} express 表达式对象
+  * @return {*}
+  */ 
 	reverseGenerateCRON = (express) => {
 		let newExpressType = JSON.parse(JSON.stringify(this.state.expressType))
 
@@ -111,6 +121,12 @@ export default class GronGenerator extends React.Component {
 
 	}
 
+ /**
+  * @name: 反解析cron表达式到UI时，每个阈内容进行解析 - 获取每个阈使用的类型和具体值
+  * @param {*} expStr cron表达式内容，例如：*，5L
+  * @param {*} expressType cron阈类型，例如：minute，hour，week
+  * @return {*} 每个阈使用的类型
+  */ 
 	getType = (expStr, expressType) => {
 		if (expStr === '*') return 'everyTime'
 
@@ -244,7 +260,12 @@ export default class GronGenerator extends React.Component {
 		}
 	}
 
-	// 表达式校验并对表达式进行赋值
+	/**
+  * @name: 表达式校验并对表达式进行赋值
+  * @param {*} type 当前选中阈值的表达式类型，例如：everyTime
+  * @param {*} expressType 当前选中的阈值的类型，例如：date、minute
+  * @return {*}
+  */
 	judgeSpecialCRON = (type, expressType) => {
 		let expressState = JSON.parse(JSON.stringify(this.state.express))
 
